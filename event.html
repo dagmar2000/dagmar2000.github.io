@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Project: Event invite</title>
+    <style>
+      /**
+                Implementing the wrapper
+                https://css-tricks.com/best-way-implement-wrapper-css/
+                RESPONSIVE DESIGN
+                */
+
+      #body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #666666;
+        background-image: url("https://cdn.glitch.com/292a5ebc-2b80-4e35-9df9-d1e417217d0d%2Fclipart1545274.png?v=1600728499318");
+      }
+
+      h3 {
+        background-color: rgb(255, 102, 153);
+        color: #ffffff;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin: 0px;
+      }
+
+      .wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 960px;
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+
+      .header {
+        color: rgb(255, 102, 153);
+        padding: 5px;
+      }
+      .event-details {
+        width: 45%;
+        padding: 5px;
+        margin: 5px;
+        float: left;
+        height: 110px;
+        overflow: hidden; /* truncates the overflow */
+      }
+      .map {
+        width: 45%;
+        padding: 5px;
+        margin: 5px;
+        height: 110px;
+        float: left;
+          background-image: url("src="https://2ab9pu2w8o9xpg6w26xnz04d-wpengine.netdna-ssl.com/wp-content/uploads/staticmaps/t/64241-the-rose-bowl/the-rose-bowl-map-large.png"
+          width="400");
+      }
+      .hostess-note {
+        background: rgba(204, 255, 102, 0.3); /** div with opacity */
+        width: 45%;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        margin: 5px;
+        height: 150px;
+        overflow: hidden; /* truncates the overflow */
+        float: right;
+      }
+      .wishlist {
+        background: rgb(204, 255, 102);
+        width: 45%;
+        padding: 5px;
+        margin: 5px;
+        float: right;
+      }
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: rgb(204, 255, 102);
+        color: rgb(255, 102, 153);
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body id="body">
+    <div class="wrapper">
+      <!-- WRAPPER -->
+
+      <!--Header -->
+      <div class="header">
+        <h1>Eleonora's 13th Birthday Party</h1>
+        <h2>Come celebrate this special day with us!</h2>
+      </div>
+      <div class="event-details">
+        <table>
+          <tr>
+            <td><strong>Date:</strong></td>
+            <td>September 25, 2020</td>
+          </tr>
+          <tr>
+            <td><strong>Time:</strong></td>
+            <td>1pm-4pm</td>
+          </tr>
+          <tr>
+            <td><strong>Address:</strong></td>
+            <td>
+              1145 Knollwood Dr.<br />
+              Pasadena CA, 90804
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Phone:</strong></td>
+            <td>x310-555-5555</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="hostess-note">
+        <h3>
+          Hostess Note
+        </h3>
+        <p>
+          Bring your swimsuit and a towel. This is a pool party. It is also an
+          outdoor party. ... When this text gets too long, it is supposed to get
+          cut off. will it happen? Or do I need a height property?<br />
+          Bring your swimsuit and a towel. This is a pool party. It is also an
+          outdoor party. ... When this text gets too long, it is supposed to get
+          cut off. will it happen? Or do I need a heigh property
+        </p>
+      </div>
+
+      <div class="map"><img
+          src="https://2ab9pu2w8o9xpg6w26xnz04d-wpengine.netdna-ssl.com/wp-content/uploads/staticmaps/t/64241-the-rose-bowl/the-rose-bowl-map-large.png"
+          width="80%"
+          alt="map of pasadena"
+        /> 
+      </div>
+
+      <div class="wishlist">
+        <h3>
+          Wishlist
+        </h3>
+        <ul>
+          <li><strong>Face Masks</strong> Sumptious nourishing lather</li>
+          <li>
+            <strong>Levi's Jeans</strong> The cutest jeans in the shed.
+            Something you always want to wear
+          </li>
+          <li><strong>Lip Gloss</strong> A teen's best friend</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <p>
+          Party Responsibly ~ Mask Up
+        </p>
+      </div>
+      <!-- WRAPPER -->
+    </div>
+  </body>
+</html>
